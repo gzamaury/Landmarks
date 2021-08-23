@@ -19,7 +19,7 @@ extension AnyTransition {
 
 struct HikeView: View {
     var hike: Hike
-    @State private var showDetail = false
+    @State private var showDetail = true
 
     var body: some View {
         VStack {
@@ -62,10 +62,12 @@ struct HikeView: View {
 
 struct HikeView_Previews: PreviewProvider {
     static var previews: some View {
-        VStack {
-            HikeView(hike: ModelData().hikes[0])
-                .padding()
-            Spacer()
+        Group {
+            VStack {
+                HikeView(hike: ModelData().hikes[0])
+                    .padding()
+                Spacer()
+            }
         }
     }
 }
