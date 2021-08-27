@@ -204,8 +204,8 @@
 		9608CA0526C4C0C7006CCC60 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				967F11C626C60FBC00FAC822 /* Resources */,
 				9608CA0626C4C0C7006CCC60 /* LandmarksApp.swift */,
+				967F11C626C60FBC00FAC822 /* Resources */,
 				967F11C426C60FAD00FAC822 /* Views */,
 				967F11C726C60FCE00FAC822 /* Model */,
 				9608CA0A26C4C0C8006CCC60 /* Assets.xcassets */,
