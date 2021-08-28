@@ -1,8 +1,8 @@
 //
 //  LandmarkList.swift
-//  Landmarks
+//  WatchLandmarks Extension
 //
-//  Created by macgza on 12/08/21.
+//  Created by macgza on 28/08/21.
 //
 
 import SwiftUI
@@ -33,18 +33,12 @@ struct LandmarkList: View {
                 
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
         }
     }
 }
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-//        ForEach(["iPhone 8","iPhone SE (2nd generation)",  "iPhone XS Max"], id: \.self) { deviceName in
-//            LandmarkList()
-//                .previewDevice(PreviewDevice(rawValue: deviceName))
-//                .previewDisplayName(deviceName)
-//        }
         LandmarkList().environmentObject(ModelData())
     }
 }
