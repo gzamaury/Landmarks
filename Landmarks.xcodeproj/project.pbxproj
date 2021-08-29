@@ -57,6 +57,8 @@
 		96B05C4526D2E222000D192E /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B05C4126D2E222000D192E /* HikeDetail.swift */; };
 		96B05C4626D2E222000D192E /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B05C4226D2E222000D192E /* HikeView.swift */; };
 		96B524FA26DAE29700C9D9AF /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B524F926DAE29700C9D9AF /* LandmarkList.swift */; };
+		96B524FD26DB213600C9D9AF /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B524FC26DB213600C9D9AF /* LandmarkCommands.swift */; };
+		96B524FE26DB213600C9D9AF /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B524FC26DB213600C9D9AF /* LandmarkCommands.swift */; };
 		96BE87CE26D8306600C82225 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE87CD26D8306500C82225 /* PageControl.swift */; };
 		96BE87D426D840C700C82225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BE87D326D840C700C82225 /* Assets.xcassets */; };
 		96BE87DB26D840C700C82225 /* WatchLandmarks Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 96BE87DA26D840C700C82225 /* WatchLandmarks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -169,6 +171,7 @@
 		96B05C4126D2E222000D192E /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		96B05C4226D2E222000D192E /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		96B524F926DAE29700C9D9AF /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		96B524FC26DB213600C9D9AF /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
 		96BE87CD26D8306500C82225 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		96BE87D126D840C600C82225 /* WatchLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BE87D326D840C700C82225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -260,6 +263,7 @@
 		964638B126D9A29900EB1FC3 /* MacLandmarks */ = {
 			isa = PBXGroup;
 			children = (
+				96B524FB26DB211000C9D9AF /* Commands */,
 				964638B426D9A29900EB1FC3 /* ContentView.swift */,
 				964638B626D9A29A00EB1FC3 /* Assets.xcassets */,
 				964638BB26D9A29A00EB1FC3 /* Info.plist */,
@@ -392,6 +396,14 @@
 				968B487926D582E3009D5D74 /* HikeBadge.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		96B524FB26DB211000C9D9AF /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				96B524FC26DB213600C9D9AF /* LandmarkCommands.swift */,
+			);
+			path = Commands;
 			sourceTree = "<group>";
 		};
 		96BE87D226D840C600C82225 /* WatchLandmarks */ = {
@@ -616,6 +628,7 @@
 			files = (
 				96A02B7226D48FD6000C4AA0 /* CategoryRow.swift in Sources */,
 				968B487326D57C80009D5D74 /* Profile.swift in Sources */,
+				96B524FD26DB213600C9D9AF /* LandmarkCommands.swift in Sources */,
 				9608CA0926C4C0C7006CCC60 /* ContentView.swift in Sources */,
 				96A02B7026D48B5E000C4AA0 /* CategoryHome.swift in Sources */,
 				96F0452626D6FB1900B80FFA /* FeatureCard.swift in Sources */,
@@ -657,6 +670,7 @@
 				968E84AB26D9A6BC0050F217 /* Landmark.swift in Sources */,
 				968E84A826D9A6BC0050F217 /* Profile.swift in Sources */,
 				968E84A326D9A6810050F217 /* CircleImage.swift in Sources */,
+				96B524FE26DB213600C9D9AF /* LandmarkCommands.swift in Sources */,
 				968E84AF26D9C6FC0050F217 /* LandmarkDetail.swift in Sources */,
 				968E84A526D9A6810050F217 /* LandmarkRow.swift in Sources */,
 				968E84A626D9A6810050F217 /* LandmarkList.swift in Sources */,
